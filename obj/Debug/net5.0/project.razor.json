@@ -279,39 +279,6 @@
         }
       },
       {
-        "HashCode": -1152422531,
-        "Kind": "Components.Component",
-        "Name": "BlazorFront.App",
-        "AssemblyName": "BlazorFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorFront.App"
-        }
-      },
-      {
-        "HashCode": -1372905175,
-        "Kind": "Components.Component",
-        "Name": "BlazorFront.App",
-        "AssemblyName": "BlazorFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorFront.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorFront.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1512175981,
         "Kind": "Components.Component",
         "Name": "BlazorFront.Shared.SurveyPrompt",
@@ -461,35 +428,35 @@
         }
       },
       {
-        "HashCode": 224785982,
+        "HashCode": -1152422531,
         "Kind": "Components.Component",
-        "Name": "BlazorFront.Shared.NavMenu",
+        "Name": "BlazorFront.App",
         "AssemblyName": "BlazorFront",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorFront.Shared.NavMenu"
+          "Common.TypeName": "BlazorFront.App"
         }
       },
       {
-        "HashCode": 764231059,
+        "HashCode": -1372905175,
         "Kind": "Components.Component",
-        "Name": "BlazorFront.Shared.NavMenu",
+        "Name": "BlazorFront.App",
         "AssemblyName": "BlazorFront",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorFront.Shared.NavMenu"
+            "TagName": "BlazorFront.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorFront.Shared.NavMenu",
+          "Common.TypeName": "BlazorFront.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

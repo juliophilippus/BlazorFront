@@ -90,7 +90,7 @@ using BlazorFront.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 29 "D:\Blazor\BlazorFront\Shared\NavMenu.razor"
+#line 30 "D:\Blazor\BlazorFront\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

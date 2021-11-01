@@ -22,7 +22,16 @@ else
             <div class="card m-3" style="min-width: 18rem; max-width: 30.5%;">
                 <div class="card-header">
                     <h3>@emp.FirstName @emp.LastName</h3>
-                    <img class="card-img-top imageThumbnail" src="@emp.PhotoPath" />
+                    @if (@emp.Gender == 0)
+                    {
+                        @* <img class="card-img-top imageThumbnail" src="@emp.PhotoPath" /> *@
+                        <img class="card-img-top imageThumbnail" src="images/male.jpg" />
+                    }
+                    else
+                    {
+                        <img class="card-img-top imageThumbnail" src="images/female.jpg" />
+                    }
+                          
                     <div class="card-footer text-center">
                         <a href="@($"employeedetail/{emp.EmployeeId}")" class="btn btn-success" data-bs-toggle="tooltip"
                     data-bs-placement="top" title="Detail">

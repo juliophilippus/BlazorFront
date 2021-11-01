@@ -49,7 +49,17 @@ else
 <div class="card">
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="@Employee.PhotoPath" class="img-fluid rounded-start" alt="...">
+      @if (@Employee.Gender == 0)
+      {
+        <img src="images/male.jpg" class="img-fluid rounded-start" alt="...">
+        @* <img class="card-img-top imageThumbnail" src="images/male.jpg" /> *@
+      }
+      else
+      {
+        <img src="images/female.jpg" class="img-fluid rounded-start" alt="...">
+        @* <img class="card-img-top imageThumbnail" src="images/female.jpg" /> *@
+      }
+      
     </div>
     <div class="col-md-8">
       <div class="card-body">
