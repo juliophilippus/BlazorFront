@@ -428,6 +428,39 @@
         }
       },
       {
+        "HashCode": 224785982,
+        "Kind": "Components.Component",
+        "Name": "BlazorFront.Shared.NavMenu",
+        "AssemblyName": "BlazorFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorFront.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 764231059,
+        "Kind": "Components.Component",
+        "Name": "BlazorFront.Shared.NavMenu",
+        "AssemblyName": "BlazorFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorFront.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorFront.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1152422531,
         "Kind": "Components.Component",
         "Name": "BlazorFront.App",

@@ -3,77 +3,63 @@
 <h3 class="text-center" style="font-weight:bold;">DETAIL EMPLOYEE</h3>
 <br>
 
-@* Tabel Employee *@
-@* <table class="table table-striped table-hover">
-
-  <tr>
-    <th>Employee Id</th>
-    <td>@Employee.EmployeeId</td>
-  </tr>
-
-  <tr>
-    <th>First Name</th>
-    <td>@Employee.FirstName</td>
-  </tr>
-
-  <tr>
-    <th>Last Name</th>
-    <td>@Employee.LastName</td>
-  </tr>
-
-  <tr>
-    <th>Date Of Birth</th>
-    <td>@Employee.DateOfBirth</td>
-  </tr>
-
-  <tr>
-    <th>Gender</th>
-    <td>@Employee.Gender</td>
-  </tr>
-
-  <tr>
-    <th>Department</th>
-    <td>@Employee.Department.DepartmentName</td>
-  </tr>
-  
-</table> *@
-@* Tabel Employee *@
-
 @if (Employee == null || Employee.Department == null)
 {
-    <div class="spinner"></div>
+  <div class="spinner"></div>
 }
 else
 {
-@* Card Employee *@
-<div class="card">
-  <div class="row g-0">
-    <div class="col-md-4">
-      @if (@Employee.Gender == 0)
-      {
-        <img src="images/male.jpg" class="img-fluid rounded-start" alt="...">
-        @* <img class="card-img-top imageThumbnail" src="images/male.jpg" /> *@
-      }
-      else
-      {
-        <img src="images/female.jpg" class="img-fluid rounded-start" alt="...">
-        @* <img class="card-img-top imageThumbnail" src="images/female.jpg" /> *@
-      }
-      
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-header text-center" style="font-weight:bold;">@Employee.FirstName @Employee.LastName</h5>
+  @* Card Employee *@
+  <div class="card">
+    <div class="row g-0">
+
+      <div class="col-md-4">
+        @if (@Employee.Gender == 0)
+        {
+          <img src="images/male.jpg" class="img-fluid rounded-start" alt="..." @onmousemove="@Mouse_Move">
+          @* <img class="card-img-top imageThumbnail" src="images/male.jpg" /> *@
+        }
+        else
+        {
+          <img src="images/female.jpg" class="img-fluid rounded-start" alt="..." @onmousemove="@Mouse_Move">
+          @* <img class="card-img-top imageThumbnail" src="images/female.jpg" /> *@
+        }
         <br>
-        <label class="col-md-12">Email : @Employee.Email</label>
-        <label class="col-md-12">Date Of Birth : @Employee.DateOfBirth</label>
-        <label class="col-md-12">Gender : @Employee.Gender</label>
-        <label class="col-md-12">Department : @Employee.Department.DepartmentName</label>
+        <div class="text-center">
+          <label for="">Coordinates : @Coordinates</label>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-header text-center" style="font-weight:bold;">@Employee.FirstName @Employee.LastName</h5>
+          <br>
+          <label class="col-md-12">Employee ID : @Employee.EmployeeId</label>
+          <label class="col-md-12">Email : @Employee.Email</label>
+          <label class="col-md-12">Date Of Birth : @Employee.DateOfBirth</label>
+          <label class="col-md-12">Gender : @Employee.Gender</label>
+          <label class="col-md-12">Department : @Employee.Department.DepartmentName</label>
+          <button class="btn btn-primary" @onclick="@Button_Click">@ButtonText</button>
+        </div>
+        <div class="card-footer text-center @CssClass">
+          <a href="@($"employeedetail/{Employee.EmployeeId}")" class="btn btn-success m-1" data-bs-toggle="tooltip"
+          data-bs-placement="top" title="Detail">
+            <span class="oi oi-eye" aria-hidden="true"> Detail</span>
+          </a>
+
+          <a href="employeepage" class="btn btn-danger m-1" data-bs-toggle="tooltip" data-bs-placement="top"
+          title="Delete">
+            <span class="oi oi-trash" aria-hidden="true"> Delete</span>
+          </a>
+
+          <a href="employeepage" class="btn btn-warning m-1" data-bs-toggle="tooltip" data-bs-placement="top"
+          title="Edit">
+            <span class="oi oi-cog" aria-hidden="true"> Edit</span>
+          </a>
+        </div>
       </div>
     </div>
   </div>
-</div>
-@* Card Employee *@
+  @* Card Employee *@
 }
 
 <br>

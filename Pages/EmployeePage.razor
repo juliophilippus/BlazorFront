@@ -21,7 +21,7 @@ else
         {
             <div class="card m-3" style="min-width: 18rem; max-width: 30.5%;">
                 <div class="card-header">
-                    <h3>@emp.FirstName @emp.LastName</h3>
+                    <h3 class="text-center">@emp.FirstName @emp.LastName</h3>
                     @if (@emp.Gender == 0)
                     {
                         @* <img class="card-img-top imageThumbnail" src="@emp.PhotoPath" /> *@
@@ -33,19 +33,19 @@ else
                     }
                           
                     <div class="card-footer text-center">
-                        <a href="@($"employeedetail/{emp.EmployeeId}")" class="btn btn-success" data-bs-toggle="tooltip"
+                        <a href="@($"employeedetail/{emp.EmployeeId}")" class="btn btn-success m-1" data-bs-toggle="tooltip"
                     data-bs-placement="top" title="Detail">
-                            <span class="oi oi-eye" aria-hidden="true"></span>
+                            <span class="oi oi-eye" aria-hidden="true"> Detail</span>
                         </a>
 
-                        <a href="employeepage" class="btn btn-danger" data-bs-toggle="tooltip" data-bs-placement="top"
+                        <a href="employeepage" class="btn btn-danger m-1" data-bs-toggle="tooltip" data-bs-placement="top"
                     title="Delete">
-                            <span class="oi oi-trash" aria-hidden="true"></span>
+                            <span class="oi oi-trash" aria-hidden="true"> Delete</span>
                         </a>
 
-                        <a href="employeepage" class="btn btn-warning" data-bs-toggle="tooltip" data-bs-placement="top"
+                        <a href="employeepage" class="btn btn-warning m-1" data-bs-toggle="tooltip" data-bs-placement="top"
                     title="Edit">
-                            <span class="oi oi-cog" aria-hidden="true"></span>
+                            <span class="oi oi-cog" aria-hidden="true"> Edit</span>
                         </a>
                     </div>
                 </div>

@@ -28,5 +28,22 @@ namespace BlazorFront.Services
             var results = await _httpClient.GetFromJsonAsync<Employee>($"api/Employees/{id}");
             return results;
         }
+
+        public Task<Employee> Add(Employee employee)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Employee> Update(int id, Employee employee)
+        {
+            throw new NotImplementedException();
+        }
+
+
     }
 }
