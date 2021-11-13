@@ -147,6 +147,59 @@
         }
       },
       {
+        "HashCode": -725115679,
+        "Kind": "Components.Component",
+        "Name": "BlazorFront.Pages.EditEmployee",
+        "AssemblyName": "BlazorFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorFront.Pages.EditEmployee"
+        }
+      },
+      {
+        "HashCode": 621748007,
+        "Kind": "Components.Component",
+        "Name": "BlazorFront.Pages.EditEmployee",
+        "AssemblyName": "BlazorFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorFront.Pages.EditEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorFront.Pages.EditEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1403080180,
         "Kind": "Components.Component",
         "Name": "BlazorFront.Pages.EmployeePage",
@@ -275,6 +328,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorFront.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1152422531,
+        "Kind": "Components.Component",
+        "Name": "BlazorFront.App",
+        "AssemblyName": "BlazorFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorFront.App"
+        }
+      },
+      {
+        "HashCode": -1372905175,
+        "Kind": "Components.Component",
+        "Name": "BlazorFront.App",
+        "AssemblyName": "BlazorFront",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorFront.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorFront.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -457,39 +543,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorFront.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1152422531,
-        "Kind": "Components.Component",
-        "Name": "BlazorFront.App",
-        "AssemblyName": "BlazorFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorFront.App"
-        }
-      },
-      {
-        "HashCode": -1372905175,
-        "Kind": "Components.Component",
-        "Name": "BlazorFront.App",
-        "AssemblyName": "BlazorFront",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorFront.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorFront.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13183,6 +13236,11 @@
     {
       "FilePath": "d:\\Blazor\\BlazorFront\\Pages\\DetailDepartment.razor",
       "TargetPath": "Pages\\DetailDepartment.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Blazor\\BlazorFront\\Pages\\EditEmployee.razor",
+      "TargetPath": "Pages\\EditEmployee.razor",
       "FileKind": "component"
     },
     {
