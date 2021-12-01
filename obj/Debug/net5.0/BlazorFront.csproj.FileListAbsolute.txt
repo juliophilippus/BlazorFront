@@ -640,3 +640,5 @@ D:\Blazor\BlazorFront\obj\Debug\net5.0\build-gz\P5vfdp6r.gz
 D:\Blazor\BlazorFront\obj\Debug\net5.0\build-gz\W5nKv4G0.gz
 D:\Blazor\BlazorFront\obj\Debug\net5.0\build-gz\5xktPE58.gz
 D:\Blazor\BlazorFront\obj\Debug\net5.0\BlazorFront.csproj.CopyComplete
+D:\Blazor\BlazorFront\obj\Debug\net5.0\RazorDeclaration\Pages\AddEmployee.razor.g.cs
+D:\Blazor\BlazorFront\obj\Debug\net5.0\Razor\Pages\AddEmployee.razor.g.cs
