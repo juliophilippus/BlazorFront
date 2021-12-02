@@ -26,6 +26,7 @@ namespace BlazorFront.Pages
 
         protected async Task HandleValidSubmit()
         {
+            Employee.PhotoPath = "images/nophoto.jpg";
             Employee result = await EmployeeService.Add(Employee);
             NavigationManager.NavigateTo("employeepage");
         }
